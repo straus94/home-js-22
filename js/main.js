@@ -72,11 +72,11 @@ const AZN = 0.59;
 const EUR = 1.1;
 
 if (currency == "EUR") {
-    alert(`${currentDollar} is a ${(currentDollar / EUR).toFixed(1)} euro`);
+    alert(`${currentDollar} is a ${(currentDollar / EUR).toFixed(2)} euro`);
 } else if (currency == "AZN") {
-    alert(`${currentDollar} is a ${(currentDollar / AZN).toFixed(1)} azn`);
+    alert(`${currentDollar} is a ${(currentDollar / AZN).toFixed(2)} azn`);
 } else if (currency == "UAH"){
-    alert(`${currentDollar} is a ${(currentDollar / UAH).toFixed(1)} uah`);
+    alert(`${currentDollar} is a ${(currentDollar / UAH).toFixed(2)} uah`);
 } else {
     alert(`wrong currency`);
 }
