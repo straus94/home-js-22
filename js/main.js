@@ -44,7 +44,7 @@ if (firstNumeral == secondNumeral || firstNumeral == thirdNumeral || secondNumer
     alert(`you number ${threeDigitNumber} - doesn't have a same numbers`);
 }
 
-step 4
+//step 4
 let currentYear = +prompt('please write any year');
 if ((currentYear % 400 == 0) || (currentYear % 4 == 0) && (currentYear % 100 != 0)) {
     alert(`the ${currentYear} is leap year`);
